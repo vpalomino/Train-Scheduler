@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Train Scheduler</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js" integrity="sha256-ABVkpwb9K9PxubvRrHMkk6wmWcIHUE9eBxNZLXYQ84k=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<div class="header-container">
+
+		<div class="main-header align-center"> Train-Schedule</div>
+		
+	</div> 
+
+	<div class="schedule-container">
+	
+		<div class="container-header align-center">
+			Information
+		</div>
+
+		<!-- table -->
+		<div class="schedule"></div>
+
+		<table id="train-table">
+			<tr class="schedule-header">
+				<th>Train Name</th>
+				<th>Destination</th>
+				<th>Frequency (min)</th>
+				<th>Next Arrival</th>
+				<th>Minutes Away</th>
+			</tr>
+
+		</table>
+
+	</div>
+	
+	<div class="form-container">
+
+		<div class="container-header align-center">Add Train</div>
+
+		<div class="form align-center">
+			
+			<div class="input">Train Name<br>
+				<input id="train-name" type="text" name="train"></div>
+			<div class="input">Destination<br>
+				<input id="destination" type="text" name="destination"></div>
+			<div class="input">Departure (HH:mm - military time)<br>
+				<input id="leave-time" type="text" name="train"></div>
+			<div class="input">Frequency (min)<br>
+				<input id="frequency" type="text" name="frequency"></div>
+
+		</div> 
+
+		<div class="button-container align-center">
+			<button class="align-center" id="add-train">SUBMIT</button>
+		</div>
+
+	</div>
+
+</body>
+</html>

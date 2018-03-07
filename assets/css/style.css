@@ -1,0 +1,107 @@
+
+.main-header {
+
+	font-size: 5.0em;
+}
+
+.sub-header {
+	font-size: 1.5em;
+}
+body {
+	background-image: url("../images/traint.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.header-container {
+	width: 75%;
+	padding: 10px auto;
+	border: 2px solid #000000;
+	margin: 10px auto;
+	background-color: #f2f2f2;
+	opacity: 0.90;
+}
+
+.title {
+	font-size: 1.25em;
+}
+
+.schedule-container {
+	width: 75%;
+	border: 2px solid #000000;
+	margin: 20px auto;
+	background-color: #f2f2f2;
+	opacity: 0.90;
+	padding: 10px 0;
+}
+
+.schedule-header {
+	color: #00ace6;
+	font-size: 1.75em;
+	padding: 10px 0;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	padding: 10px 0;
+}
+
+td {
+	text-align: center;
+	font-size: 1.75em;
+	padding: 10px 0;
+	border-bottom: 1px solid #00ace6;
+}
+
+.form {
+	width: 100%;
+	margin: auto;
+}
+
+
+.form-container {
+	width: 75%;
+	border: 2px solid #000000;
+	margin: 20px auto;
+	background-color: #f2f2f2;
+	opacity: 0.90;
+}
+
+
+input {
+	width: 85%;
+	height: 25px;
+	margin: 10px auto;
+}
+
+input[type = "text"] {
+	
+	font-size: 1.05em;
+	text-align: center;
+}
+
+.container-header {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 3.0em;
+}
+
+.button-container {
+	margin: 10px auto;
+}
+
+button {
+	
+	font-size: 1.25em;
+	margin: auto 10px;
+}
+
+button:active {
+	transform: translateY(2px);
+}
